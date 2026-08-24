@@ -1,0 +1,25 @@
+name: Generate GitHub Stats
+
+on:
+  schedule:
+    - cron: "0 5 * * *" # roda todo dia às 5h UTC
+  workflow_dispatch: {} # permite rodar manualmente também
+
+jobs:
+  stats:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - uses: actions/checkout@v6
+
+      - name: Generate the user stats image
+        uses: cicirello/user-statistician@v1
+        with:
+          colors: "#122232 #EFA634 #EFA634 #EFA634 #FDFAF4"
+          custom-title: "Tiago's GitHub Activity"
+          category-order: general, languages, repositories, contributions
+          hide-keys: joined, private
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
