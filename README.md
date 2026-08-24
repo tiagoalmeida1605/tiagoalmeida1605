@@ -24,6 +24,8 @@
 
 ## 🎧 Sobre mim
 
+<i>(yes, this caption is in English — I totally got this 😎)</i>
+
 <table width="100%">
 <tr>
 <td width="60%" valign="top">
@@ -159,18 +161,16 @@ Um espaço para testar ideias, criar projetos, experimentar novas tecnologias e 
 
 <div align="center">
 
-<table>
-<tr>
-<td width="50%" align="center">
-<img src="https://github-readme-stats.vercel.app/api?username=tiagoalmeida1605&show_icons=true&theme=tokyonight&hide_border=true&bg_color=122232&title_color=EFA634&icon_color=EFA634&text_color=FDFAF4" alt="Tiago's GitHub stats" width="100%" />
-</td>
-<td width="50%" align="center">
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=tiagoalmeida1605&layout=compact&theme=tokyonight&hide_border=true&bg_color=122232&title_color=EFA634&text_color=FDFAF4" alt="Top Langs" width="100%" />
-</td>
-</tr>
-</table>
+<!--
+  📈 Card de stats gerado direto no repositório (sem depender de servidor externo).
+  Ative com o workflow .github/workflows/stats.yml (te mandei esse arquivo) —
+  suba pro repo e rode uma vez em Actions pra criar o arquivo images/userstats.svg
+-->
+<a href="https://github.com/cicirello/user-statistician"><img src="images/userstats.svg" alt="Tiago's GitHub Stats" width="90%" /></a>
 
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=tiagoalmeida1605&theme=tokyonight&hide_border=true&background=122232&stroke=EFA634&ring=EFA634&fire=DC5C3E&currStreakLabel=FDFAF4&sideLabels=FDFAF4&dates=8a8a8a" alt="GitHub Streak" width="60%" />
+<br><br>
+
+<img src="https://streak-stats.demolab.com/?user=tiagoalmeida1605&theme=tokyonight&hide_border=true&background=122232&stroke=EFA634&ring=EFA634&fire=DC5C3E&currStreakLabel=FDFAF4&sideLabels=FDFAF4&dates=8a8a8a" alt="GitHub Streak" width="60%" />
 
 <img src="https://github-readme-activity-graph.vercel.app/graph?username=tiagoalmeida1605&theme=react-dark&bg_color=122232&color=EFA634&line=EFA634&point=FDFAF4&area=true&hide_border=true" alt="Activity Graph" width="90%"/>
 
@@ -204,4 +204,4 @@ Um espaço para testar ideias, criar projetos, experimentar novas tecnologias e 
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:EFA634,50:359497,100:122232&height=100&section=footer" width="100%"/>
 
-</div>
+</div>'
