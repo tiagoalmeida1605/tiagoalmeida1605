@@ -1,0 +1,51 @@
+# gh-ascii — daily card refresh
+#
+# Gera um card estilo "neofetch": teu avatar convertido em ASCII art ao lado
+# de stats ao vivo (linguagens, repos, stars, commits, contribuições), tudo
+# num SVG só, commitado direto no repo — sem depender de token nem de API key.
+#
+# Roda 1x por dia e só commita se o card realmente mudou.
+
+name: Refresh gh-ascii card
+
+on:
+  schedule:
+    - cron: "17 6 * * *" # diário às 6h17 UTC
+  workflow_dispatch: {} # permite rodar manualmente também
+
+permissions:
+  contents: write
+
+concurrency:
+  group: refresh-gh-ascii-card
+  cancel-in-progress: true
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+
+      - name: Download both themes
+        env:
+          HANDLE: tiagoalmeida1605
+          GH_ASCII_URL: https://gh.crafter.run
+        run: |
+          curl -fsSL --retry 3 --retry-delay 5 \
+            "$GH_ASCII_URL/$HANDLE?theme=dark" \
+            -o dark_mode.svg
+          curl -fsSL --retry 3 --retry-delay 5 \
+            "$GH_ASCII_URL/$HANDLE?theme=light" \
+            -o light_mode.svg
+
+      - name: Commit only if the card changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add dark_mode.svg light_mode.svg
+          if git diff --cached --quiet; then
+            echo "Card sem mudanças — nada pra commitar."
+          else
+            git commit -m "chore: refresh gh-ascii card"
+            git push
+          fi
