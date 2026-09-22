@@ -84,8 +84,8 @@ Sou **cristão batista** e levo isso a sério — inclusive na forma como trato 
 
 <div align="center">
 
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=tiagoalmeida1605&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0B1020&title_color=7AA2F7&icon_color=7AA2F7&text_color=A9B1D6&include_all_commits=true&count_private=true" />
-<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=tiagoalmeida1605&layout=compact&theme=tokyonight&hide_border=true&bg_color=0B1020&title_color=7AA2F7&text_color=A9B1D6&langs_count=6" />
+<img height="165" src="https://github-stats-extended.vercel.app/api?username=tiagoalmeida1605&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0B1020&title_color=7AA2F7&icon_color=7AA2F7&text_color=A9B1D6&include_all_commits=true&count_private=true" />
+<img height="165" src="https://github-stats-extended.vercel.app/api/top-langs/?username=tiagoalmeida1605&layout=compact&theme=tokyonight&hide_border=true&bg_color=0B1020&title_color=7AA2F7&text_color=A9B1D6&langs_count=6" />
 
 <br/><br/>
 
