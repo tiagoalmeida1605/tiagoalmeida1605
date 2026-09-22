@@ -14,7 +14,7 @@
 
 Tenho **16 anos**, curso o **1º ano do Técnico em Informática no UNASP São Paulo** e gosto de construir do zero: interfaces, automações, bots — tudo rodando no meu **Linux Mint**. Sou **vibe coder**: aprendo mexendo, quebrando e refazendo, sem medo de começar de novo quando o projeto pede.
 
-Fora do código, sou **corinthiano** de coração e acompanho o **Golden State Warriors** na NBA. Acredito que a melhor forma de aprender é colocando a mão na massa.
+Sou **cristão batista** e levo isso a sério — inclusive na forma como trato as pessoas. Fora do código, sou **corinthiano** de coração e acompanho o **Golden State Warriors** na NBA.
 
 > **Objetivo:** chegar no fim do ensino médio com um portfólio que eu tenha orgulho de mostrar pra qualquer faculdade ou vaga.
 
@@ -54,6 +54,19 @@ Fora do código, sou **corinthiano** de coração e acompanho o **Golden State W
     </td>
   </tr>
 </table>
+
+<br/>
+
+## 🐍 Contribuições
+
+<div align="center">
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/tiagoalmeida1605/tiagoalmeida1605/output/github-snake-dark.svg" />
+  <img alt="Snake animation" src="https://raw.githubusercontent.com/tiagoalmeida1605/tiagoalmeida1605/output/github-snake-dark.svg" />
+</picture>
+
+</div>
 
 <br/>
 
