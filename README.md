@@ -95,17 +95,6 @@ Sou **cristão batista** e levo isso a sério — inclusive na forma como trato 
 
 <br/>
 
-## ⚡ Torcidas
-
-<div align="center">
-
-<a href="https://www.corinthians.com.br/"><img src="https://img.shields.io/badge/Corinthians-000000?style=for-the-badge&logoColor=white" /></a>
-<a href="https://www.nba.com/warriors"><img src="https://img.shields.io/badge/Golden_State_Warriors-1D428A?style=for-the-badge&logoColor=FFC72C" /></a>
-
-</div>
-
-<br/>
-
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:1A1F35,50:121A2E,100:0B1020&height=120&section=footer" width="100%" />
 
 <div align="center">
